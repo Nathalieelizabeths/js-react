@@ -1,6 +1,6 @@
 import React from 'react';
 import'./style.css';
-const Navigation = () => {
+const Navigationbar = () => {
   return (
     <nav>
       <ul>
@@ -17,4 +17,4 @@ const Navigation = () => {
     </nav>
   );
 };
-export default Navigation;
+export default Navigationbar;

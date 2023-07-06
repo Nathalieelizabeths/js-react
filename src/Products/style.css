@@ -1,4 +1,4 @@
-.product-grid {
+/* .product-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -45,4 +45,29 @@
     display: flex;
     flex-direction: column;
   }
-  
+   */
+   .product{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+}
+.productkey{
+    margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.productimage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.productprice{
+    font-weight: bold;
+}
+.productdiscount{
+    color: red;
+}
+
