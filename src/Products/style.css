@@ -4,8 +4,11 @@
     gap: 20px;
   }
   h1{
-    font-size: 46px;
-    font-weight: bold; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: orangered;
   }
   
   .product-card {

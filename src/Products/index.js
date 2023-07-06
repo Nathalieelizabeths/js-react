@@ -25,8 +25,9 @@ const Products = ()=>{
         return <h2>Loading.....</h2>
     }
     return(
+        <>
+        <h1>All products</h1>
         <div className="product-grid">
-            <h1>All products</h1>
             {products.map(item => (
                 <div key={item.id} className="product-card">
                 <h2>{item.title}</h2>
@@ -38,6 +39,7 @@ const Products = ()=>{
                 </div>
             ))}
         </div>
+        </>
     );
 };
 export default Products;
