@@ -1,0 +1,15 @@
+/* img{
+    display: flex;
+    margin-right: 30%;
+    margin-left: 20%;
+}
+p{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 30%;
+    margin-left: 20%;   
+} */
+.products{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
