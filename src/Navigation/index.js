@@ -2,7 +2,7 @@ import React from 'react';
 import'./style.css';
 const Navigationbar = () => {
   return (
-    <nav>
+    <nav className='navbar'>
       <ul>
         <li>
           <a href="/login">Login</a>
